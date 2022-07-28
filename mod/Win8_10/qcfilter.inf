@@ -223,6 +223,10 @@ qcusbfilter.sys  = 1000
 %qcfilter.DeviceDesc9B3C%     = qcfilter, USB\VID_2DF3&PID_9B3e
 %qcfilter.DeviceDesc9B3C%     = qcfilter, USB\VID_2DF3&PID_9B3f
 
+;Neoway
+%qcfilter.DeviceDesc8243%     = qcfilter, USB\VID_2949&PID_8243
+%qcfilter.DeviceDesc8247%     = qcfilter, USB\VID_2949&PID_8247
+
 [QualcommFilter.NTamd64]
 %qcfilter.DeviceDesc3197%     = qcfilter, USB\VID_05C6&PID_3197
 %qcfilter.DeviceDesc3199%     = qcfilter, USB\VID_05C6&PID_3199
@@ -415,6 +419,10 @@ qcusbfilter.sys  = 1000
 %qcfilter.DeviceDesc9B3C%     = qcfilter, USB\VID_2DF3&PID_9B3d
 %qcfilter.DeviceDesc9B3C%     = qcfilter, USB\VID_2DF3&PID_9B3e
 %qcfilter.DeviceDesc9B3C%     = qcfilter, USB\VID_2DF3&PID_9B3f
+
+;Neoway
+%qcfilter.DeviceDesc8243%     = qcfilter, USB\VID_2949&PID_8243
+%qcfilter.DeviceDesc8247%     = qcfilter, USB\VID_2949&PID_8247
 
 [qcfilter.NT]  
 ;-----------------------------------------------------------------
@@ -749,5 +757,8 @@ qcfilter.DeviceDesc9B3d     = "Longsung USB Composite Device 9B3d"
 qcfilter.DeviceDesc9B3e     = "Longsung USB Composite Device 9B3e"
 qcfilter.DeviceDesc9B3f     = "Longsung USB Composite Device 9B3f"
 
+;Neoway
+qcfilter.DeviceDesc8243     = "Neoway USB Composite Device 8243"
+qcfilter.DeviceDesc8247     = "Neoway USB Composite Device 8247"
 
 qcfilter.SvcDesc            = "Qualcomm USB Composite Device Filter Driver"

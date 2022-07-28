@@ -69,6 +69,15 @@ ExcludeFromSelect = *
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3E&MI_02
 %CMNScomDeviceApp1%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_01
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_02
+
+;Neoway
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8243&MI_04
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8243&MI_02
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8243&MI_03
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8247&MI_03
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8247&MI_01
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8247&MI_02
+
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B3C
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B30
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B31
@@ -445,6 +454,15 @@ ExcludeFromSelect = *
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3E&MI_02
 %CMNScomDeviceApp1%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_01
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_02
+
+;Neoway
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8243&MI_04
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8243&MI_02
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8243&MI_03
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8247&MI_03
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8247&MI_01
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8247&MI_02
+
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B3C
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B30
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B31
@@ -820,6 +838,15 @@ ExcludeFromSelect = *
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3E&MI_02
 %CMNScomDeviceApp1%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_01
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_02
+
+;Neoway
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8243&MI_04
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8243&MI_02
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8243&MI_03
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8247&MI_03
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8247&MI_01
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8247&MI_02
+
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B3C
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B30
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B31
@@ -1196,6 +1223,15 @@ ExcludeFromSelect = *
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3E&MI_02
 %CMNScomDeviceApp1%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_01
 %CMNScomDeviceApp2%      = QportInstall00, USB\VID_2DF3&PID_9B3F&MI_02
+
+;Neoway
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8243&MI_04
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8243&MI_02
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8243&MI_03
+%CMNScomDeviceDiag%      = QportInstall00, USB\VID_2949&PID_8247&MI_03
+%CMNScomDeviceApp1%      = QportInstall00, USB\VID_2949&PID_8247&MI_01
+%CMNScomDeviceApp2%      = QportInstall00, USB\VID_2949&PID_8247&MI_02
+
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B3C
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B30
 %QcomDevice90080%  = QportInstall00, USB\VID_05C6&PID_9B31

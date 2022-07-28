@@ -52,6 +52,10 @@ ExcludeFromSelect = *
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3E&MI_03
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3F&MI_03
 
+;Neoway
+%qcwwan.DeviceDesc8243%    = qcwwan.ndi, USB\VID_2949&PID_8243&MI_00
+%qcwwan.DeviceDesc8247%    = qcwwan.ndi, USB\VID_2949&PID_8247&MI_04
+
 %qcwwan.DeviceDesc%         = qcwwan.ndi, USB\VID_05C6&PID_7000&MI_00
 %qcwwan.DeviceDesc7001%     = qcwwan.ndi, USB\VID_05C6&PID_7001&MI_01
 %qcwwan.DeviceDesc7002%     = qcwwan.ndi, USB\VID_05C6&PID_7002&MI_01
@@ -321,6 +325,10 @@ ExcludeFromSelect = *
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3D&MI_03
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3E&MI_03
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3F&MI_03
+
+;Neoway
+%qcwwan.DeviceDesc8243%    = qcwwan.ndi, USB\VID_2949&PID_8243&MI_00
+%qcwwan.DeviceDesc8247%    = qcwwan.ndi, USB\VID_2949&PID_8247&MI_04
 
 %qcwwan.DeviceDesc%    		= qcwwan.ndi, USB\VID_1C9E&PID_9B05&MI_04
 %qcwwan.DeviceDesc%         = qcwwan.ndi, USB\VID_05C6&PID_7000&MI_00
@@ -592,6 +600,10 @@ ExcludeFromSelect = *
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3D&MI_03
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3E&MI_03
 %qcwwan.DeviceDesc9B3C%    = qcwwan.ndi, USB\VID_2DF3&PID_9B3F&MI_03
+
+;Neoway
+%qcwwan.DeviceDesc8243%    = qcwwan.ndi, USB\VID_2949&PID_8243&MI_00
+%qcwwan.DeviceDesc8247%    = qcwwan.ndi, USB\VID_2949&PID_8247&MI_04
 
 %qcwwan.DeviceDesc%    		= qcwwan.ndi, USB\VID_1C9E&PID_9B05&MI_04
 %qcwwan.DeviceDesc%         = qcwwan.ndi, USB\VID_05C6&PID_7000&MI_00
@@ -956,7 +968,12 @@ qcwwan.CopyFiles = 12
 QcomSrcDisk = "QUALCOMM USB Driver Disk"
 QCOM                       = "Qualcomm" 
 qcwwan.DeviceDesc9B05           = "Qualcomm HS-USB WWAN Adapter"
-qcwwan.DeviceDesc9B3C           = "Longsung HS-USB WWAN Adapter"                     
+qcwwan.DeviceDesc9B3C           = "Longsung HS-USB WWAN Adapter"
+
+;Neoway
+qcwwan.DeviceDesc8243    = "Neoway HS-USB WWAN Adapter"
+qcwwan.DeviceDesc8247    = "Neoway HS-USB WWAN Adapter"
+                     
 qcwwan.DeviceDesc           = "Qualcomm HS-USB WWAN Adapter"
 qcwwan.DeviceDesc7001       = "Qualcomm HS-USB WWAN Adapter 7001"
 qcwwan.DeviceDesc7002       = "Qualcomm HS-USB WWAN Adapter 7002"
