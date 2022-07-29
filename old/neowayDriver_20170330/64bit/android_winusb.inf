@@ -77,6 +77,10 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_05c6&PID_8238&MI_03
 %CompositeAdbInterface%     = USB_Install, USB\VID_05c6&PID_8241&MI_05
 
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8241&MI_05
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8242&MI_05
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8243&MI_04
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8247&MI_03
 
 ; For AMD64 and later
 [Google.NTamd64]
@@ -133,7 +137,10 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_05c6&PID_8238&MI_03
 %CompositeAdbInterface%     = USB_Install, USB\VID_05c6&PID_8241&MI_05
 
-
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8241&MI_05
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8242&MI_05
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8243&MI_04
+%CompositeAdbInterface%     = USB_Install, USB\VID_2949&PID_8247&MI_03
 
 [USB_Install]
 Include = winusb.inf

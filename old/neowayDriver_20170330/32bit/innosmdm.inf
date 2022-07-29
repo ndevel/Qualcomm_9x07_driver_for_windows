@@ -218,13 +218,16 @@ ExcludeFromSelect = *
 %neowaymodem% = Modem2, USB\VID_2949&PID_8105&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8106&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8107&MI_01
-%neowaymodem% = Modem2, USB\VID_2949&PID_8241&MI_02
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8241&MI_02
-%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8238&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8300&MI_03
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8242&MI_02
+
+%neowaymodem% = Modem2, USB\VID_2949&PID_8241&MI_02
+%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
 %neowaymodem% = Modem2, USB\VID_2949&PID_8243&MI_01
+%neowaymodem% = Modem2, USB\VID_2949&PID_8247&MI_00
+
 [Models.NTamd64]
 %QUALCOMM00% = Modem2, USB\VID_05C6&PID_3100
 %QUALCOMM01% = Modem2, USB\VID_05C6&PID_3196
@@ -415,13 +418,15 @@ ExcludeFromSelect = *
 %neowaymodem% = Modem2, USB\VID_2949&PID_8105&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8106&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8107&MI_01
-%neowaymodem% = Modem2, USB\VID_2949&PID_8241&MI_02
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8241&MI_02
-%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8242&MI_02
-%neowaymodem% = Modem2, USB\VID_2949&PID_8243&MI_01
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8238&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8300&MI_03
+
+%neowaymodem% = Modem2, USB\VID_2949&PID_8241&MI_02
+%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
+%neowaymodem% = Modem2, USB\VID_2949&PID_8243&MI_01
+%neowaymodem% = Modem2, USB\VID_2949&PID_8247&MI_00
 
 [Models.NTia64]
 %QUALCOMM00% = Modem2, USB\VID_05C6&PID_3100
@@ -613,13 +618,16 @@ ExcludeFromSelect = *
 %neowaymodem% = Modem2, USB\VID_2949&PID_8105&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8106&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8107&MI_01
-%neowaymodem% = Modem2, USB\VID_2949&PID_8241&MI_02
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8241&MI_02
-%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8242&MI_02
-%neowaymodem% = Modem2, USB\VID_2949&PID_8243&MI_01
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8238&MI_01
 %neowaymodem% = Modem2, USB\VID_2949&PID_8300&MI_03
+
+%neowaymodem% = Modem2, USB\VID_2949&PID_8241&MI_02
+%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
+%neowaymodem% = Modem2, USB\VID_2949&PID_8243&MI_01
+%neowaymodem% = Modem2, USB\VID_2949&PID_8247&MI_00
+
 [Models.NTarm]
 %QUALCOMM00% = Modem2, USB\VID_05C6&PID_3100
 %QUALCOMM01% = Modem2, USB\VID_05C6&PID_3196
@@ -764,11 +772,15 @@ ExcludeFromSelect = *
 %QUALCOMM319A0% = Modem2, USB\VID_05C6&PID_319A&MI_00
 %QUALCOMM319B1% = Modem2, USB\VID_05C6&PID_319B&MI_01
 %QUALCOMM920D2% = Modem2, USB\VID_05C6&PID_920D&MI_02
-%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
 %neowaymodem% = Modem2, USB\VID_05c6&PID_8242&MI_02
-%neowaymodem% = Modem2, USB\VID_2949&PID_8243&MI_01
 %DTM1D9F1% = Modem2, USB\VID_1D9F&PID_9C06&MI_02
 %neowaymodem% = Modem2, USB\VID_2949&PID_8300&MI_03
+
+%neowaymodem% = Modem2, USB\VID_2949&PID_8241&MI_02
+%neowaymodem% = Modem2, USB\VID_2949&PID_8242&MI_02
+%neowaymodem% = Modem2, USB\VID_2949&PID_8243&MI_01
+%neowaymodem% = Modem2, USB\VID_2949&PID_8247&MI_00
+
 [Modem2.NT]
 CopyFiles=QCUsbDriverFiles
 AddReg = All, MfgAddReg, Modem1.AddReg, USB
