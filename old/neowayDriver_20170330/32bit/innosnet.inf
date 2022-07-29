@@ -1,0 +1,217 @@
+;-------------------------------------------------------------------------------
+; QCNET.INF
+;
+; Qualcomm Wireless Network Device
+;
+; Copyright (c) 2012 Qualcomm Inc.  All rights reserved.
+
+
+[version]
+Signature   = "$Windows NT$"
+Class       = Net
+ClassGUID   = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider    = %QCOM%
+DriverVer   = 10/16/2012,1.0.7.9
+Catalogfile = innosusbnet.cat
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[SourceDisksNames]
+  1000 = %QcomSrcDisk%,"",,
+
+[SourceDisksFiles]
+  innosusbnet.sys = 1000
+;[SourceDisksNames.x86]
+;1000 = %QcomSrcDisk%,"",,\x86
+;[SourceDisksNames.amd64]
+;1000 = %QcomSrcDisk%,"",,\amd64
+
+[Manufacturer]
+%QCOM% = QCOM, NTia64, NTamd64
+
+[QCOM]
+%qcwwan.DeviceDesc%         = qcwwan.ndi, USB\VID_05C6&PID_7000&MI_00
+%qcwwan.DeviceDesc7001%     = qcwwan.ndi, USB\VID_05C6&PID_7001&MI_01
+%qcwwan.DeviceDesc7002%     = qcwwan.ndi, USB\VID_05C6&PID_7002&MI_01
+
+%qcwwan.DeviceDesc90254%    = qcwwan.ndi, USB\VID_05C6&PID_9025&MI_04
+%qcwwan.DeviceDesc90263%    = qcwwan.ndi, USB\VID_05C6&PID_9026&MI_03
+
+%qcwwan.DeviceDesc90912%    = qcwwan.ndi, USB\VID_05C6&PID_9091&MI_02
+%qcwwan.DeviceDesc90922%    = qcwwan.ndi, USB\VID_05C6&PID_9092&MI_02
+
+; Neoway RMNET add By liuzhonghui 20161121
+
+%qcwwan.DeviceDesc80983%  = qcwwan.ndi, USB\VID_2949&PID_8098&MI_03
+%qcwwan.DeviceDesc80993%  = qcwwan.ndi, USB\VID_2949&PID_8099&MI_03
+%qcwwan.DeviceDesc81003%  = qcwwan.ndi, USB\VID_2949&PID_8100&MI_03
+%qcwwan.DeviceDesc81013%  = qcwwan.ndi, USB\VID_2949&PID_8101&MI_03
+%qcwwan.DeviceDesc81023%  = qcwwan.ndi, USB\VID_2949&PID_8102&MI_03
+%qcwwan.DeviceDesc81033%  = qcwwan.ndi, USB\VID_2949&PID_8103&MI_03
+%qcwwan.DeviceDesc81042%  = qcwwan.ndi, USB\VID_2949&PID_8104&MI_02
+%qcwwan.DeviceDesc81052%  = qcwwan.ndi, USB\VID_2949&PID_8105&MI_02
+%qcwwan.DeviceDesc81062%  = qcwwan.ndi, USB\VID_2949&PID_8106&MI_02
+%qcwwan.DeviceDesc81072%  = qcwwan.ndi, USB\VID_2949&PID_8107&MI_02
+%qcwwan.DeviceDesc81161%  = qcwwan.ndi, USB\VID_05c6&PID_8116&MI_01
+%qcwwan.DeviceDesc82361%  = qcwwan.ndi, USB\VID_05c6&PID_8236&MI_01
+%qcwwan.DeviceDesc82413%  = qcwwan.ndi, USB\VID_05c6&PID_8241&MI_03
+%qcwwan.DeviceDesc82423%  = qcwwan.ndi, USB\VID_05c6&PID_8242&MI_03
+%qcwwan.DeviceDesc82430%  = qcwwan.ndi, USB\VID_2949&PID_8243&MI_00
+
+[QCOM.NTia64]
+%qcwwan.DeviceDesc%         = qcwwan.ndi, USB\VID_05C6&PID_7000&MI_00
+%qcwwan.DeviceDesc7001%     = qcwwan.ndi, USB\VID_05C6&PID_7001&MI_01
+%qcwwan.DeviceDesc7002%     = qcwwan.ndi, USB\VID_05C6&PID_7002&MI_01
+%qcwwan.DeviceDesc90254%    = qcwwan.ndi, USB\VID_05C6&PID_9025&MI_04
+%qcwwan.DeviceDesc90263%    = qcwwan.ndi, USB\VID_05C6&PID_9026&MI_03
+
+%qcwwan.DeviceDesc90912%    = qcwwan.ndi, USB\VID_05C6&PID_9091&MI_02
+%qcwwan.DeviceDesc90922%    = qcwwan.ndi, USB\VID_05C6&PID_9092&MI_02
+; Neoway RMNET add By liuzhonghui 20161121
+
+%qcwwan.DeviceDesc80983%  = qcwwan.ndi, USB\VID_2949&PID_8098&MI_03
+%qcwwan.DeviceDesc80993%  = qcwwan.ndi, USB\VID_2949&PID_8099&MI_03
+%qcwwan.DeviceDesc81003%  = qcwwan.ndi, USB\VID_2949&PID_8100&MI_03
+%qcwwan.DeviceDesc81013%  = qcwwan.ndi, USB\VID_2949&PID_8101&MI_03
+%qcwwan.DeviceDesc81023%  = qcwwan.ndi, USB\VID_2949&PID_8102&MI_03
+%qcwwan.DeviceDesc81033%  = qcwwan.ndi, USB\VID_2949&PID_8103&MI_03
+%qcwwan.DeviceDesc81042%  = qcwwan.ndi, USB\VID_2949&PID_8104&MI_02
+%qcwwan.DeviceDesc81052%  = qcwwan.ndi, USB\VID_2949&PID_8105&MI_02
+%qcwwan.DeviceDesc81062%  = qcwwan.ndi, USB\VID_2949&PID_8106&MI_02
+%qcwwan.DeviceDesc81072%  = qcwwan.ndi, USB\VID_2949&PID_8107&MI_02
+%qcwwan.DeviceDesc81161%  = qcwwan.ndi, USB\VID_05c6&PID_8116&MI_01
+%qcwwan.DeviceDesc82361%  = qcwwan.ndi, USB\VID_05c6&PID_8236&MI_01
+%qcwwan.DeviceDesc82413%  = qcwwan.ndi, USB\VID_05c6&PID_8241&MI_03
+%qcwwan.DeviceDesc82423%  = qcwwan.ndi, USB\VID_05c6&PID_8242&MI_03
+%qcwwan.DeviceDesc82430%  = qcwwan.ndi, USB\VID_2949&PID_8243&MI_00
+
+[QCOM.NTamd64]
+%qcwwan.DeviceDesc%         = qcwwan.ndi, USB\VID_05C6&PID_7000&MI_00
+%qcwwan.DeviceDesc7001%     = qcwwan.ndi, USB\VID_05C6&PID_7001&MI_01
+%qcwwan.DeviceDesc7002%     = qcwwan.ndi, USB\VID_05C6&PID_7002&MI_01
+%qcwwan.DeviceDesc90254%    = qcwwan.ndi, USB\VID_05C6&PID_9025&MI_04
+%qcwwan.DeviceDesc90263%    = qcwwan.ndi, USB\VID_05C6&PID_9026&MI_03
+
+%qcwwan.DeviceDesc90912%    = qcwwan.ndi, USB\VID_05C6&PID_9091&MI_02
+%qcwwan.DeviceDesc90922%    = qcwwan.ndi, USB\VID_05C6&PID_9092&MI_02
+; Neoway RMNET add By liuzhonghui 20161121
+
+%qcwwan.DeviceDesc80983%  = qcwwan.ndi, USB\VID_2949&PID_8098&MI_03
+%qcwwan.DeviceDesc80993%  = qcwwan.ndi, USB\VID_2949&PID_8099&MI_03
+%qcwwan.DeviceDesc81003%  = qcwwan.ndi, USB\VID_2949&PID_8100&MI_03
+%qcwwan.DeviceDesc81013%  = qcwwan.ndi, USB\VID_2949&PID_8101&MI_03
+%qcwwan.DeviceDesc81023%  = qcwwan.ndi, USB\VID_2949&PID_8102&MI_03
+%qcwwan.DeviceDesc81033%  = qcwwan.ndi, USB\VID_2949&PID_8103&MI_03
+%qcwwan.DeviceDesc81042%  = qcwwan.ndi, USB\VID_2949&PID_8104&MI_02
+%qcwwan.DeviceDesc81052%  = qcwwan.ndi, USB\VID_2949&PID_8105&MI_02
+%qcwwan.DeviceDesc81062%  = qcwwan.ndi, USB\VID_2949&PID_8106&MI_02
+%qcwwan.DeviceDesc81072%  = qcwwan.ndi, USB\VID_2949&PID_8107&MI_02
+%qcwwan.DeviceDesc81161%  = qcwwan.ndi, USB\VID_05c6&PID_8116&MI_01
+%qcwwan.DeviceDesc82361%  = qcwwan.ndi, USB\VID_05c6&PID_8236&MI_01
+%qcwwan.DeviceDesc82413%  = qcwwan.ndi, USB\VID_05c6&PID_8241&MI_03
+%qcwwan.DeviceDesc82423%  = qcwwan.ndi, USB\VID_05c6&PID_8242&MI_03
+%qcwwan.DeviceDesc82430%  = qcwwan.ndi, USB\VID_2949&PID_8243&MI_00
+
+;
+;
+;-------------------------------------------------------------------------------
+; Virtual Ethernet Adapter
+;
+[qcwwan.ndi]
+Characteristics = 0x4 ; NCF_PHYSICAL
+BusType         = 15  ; PNPBus
+AddReg          = qcwwan.Reg
+CopyFiles       = qcwwan.CopyFiles
+
+[qcwwan.ndi.Services]
+AddService      = qcusbnet, 2, qcwwan.Service, qcwwan.EventLog
+
+;-----------------------------------------------------------------------------
+; Virtual Miniport Common
+;
+[qcwwan.Reg]
+HKR,    ,                         BusNumber,           0, "0" 
+HKR, Ndi,                         Service,             0, "qcusbnet"
+HKR, Ndi\Interfaces,              UpperRange,          0, "ndis5"
+HKR, Ndi\Interfaces,              LowerRange,          0, "ethernet"
+; HKR, Ndi\params\VlanID,     ParamDesc,       0, %VlanID%
+; HKR, Ndi\params\VlanID,     default,         0, "777"
+; HKR, Ndi\params\VlanID,     type,            0, "long"
+; HKR, Ndi\params\VlanID,     min,             0, "0"
+; HKR, Ndi\params\VlanID,     max,             0, "4095"
+; HKR, Ndi\params\VlanID,     step,            0, "1"
+; HKR, Ndi\params\VlanID,     base,            0, "10"
+HKR,, QCDevDisableQoS, 0x00010001, 0x00000003
+
+;-----------------------------------------------------------------------------
+; Driver and Service Section
+;
+[qcwwan.CopyFiles]
+innosusbnet.sys,,,2
+
+[qcwwan.Service]
+DisplayName     = %qcwwan.Service.DispName%
+ServiceType     = 1 ;%SERVICE_KERNEL_DRIVER%
+StartType       = 3 ;%SERVICE_DEMAND_START%
+ErrorControl    = 1 ;%SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\innosusbnet.sys
+LoadOrderGroup  = NDIS
+AddReg          = TextModeFlags.Reg
+
+[qcwwan.EventLog]
+AddReg = qcwwan.AddEventLog.Reg
+
+[qcwwan.AddEventLog.Reg]
+HKR, , EventMessageFile, 0x00020000, "%%SystemRoot%%\System32\netevent.dll"
+HKR, , TypesSupported,   0x00010001, 7
+
+[TextModeFlags.Reg]
+HKR, , TextModeFlags,    0x00010001, 0x0001
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+innosusbnet.sys  = 1,,
+
+;-----------------------------------------------------------------------------
+; DestinationDirs
+;
+[DestinationDirs]
+qcwwan.CopyFiles = 12
+
+;-----------------------------------------------------------------------------
+; Localizable Strings
+;
+[Strings]
+QcomSrcDisk = "QUALCOMM USB Driver Disk"
+QCOM                       = "Qualcomm"                      
+qcwwan.DeviceDesc           = "Qualcomm Wireless Ethernet Adapter"
+qcwwan.DeviceDesc7001       = "Qualcomm Wireless Ethernet Adapter 7001"
+qcwwan.DeviceDesc7002       = "Qualcomm Wireless Ethernet Adapter 7002"
+
+qcwwan.DeviceDesc920D0      = "Qualcomm Gobi 3000 HS-USB Mobile Broadband Adapter 920D"
+qcwwan.Service.DispName     = "Qualcomm USB-NDIS miniport"
+DiskId1 = "Qualcomm USB-NDIS Miniport Device Installation Disk #1"
+qcwwan.DeviceDesc90254  = "NEOWAY HS-USB WWAN Adapter 9025"
+qcwwan.DeviceDesc90263  = "NEOWAY HS-USB WWAN Adapter 9026"
+qcwwan.DeviceDesc90912  = "NEOWAY HS-USB WWAN Adapter 9091"
+qcwwan.DeviceDesc90922  = "NEOWAY HS-USB WWAN Adapter 9092"
+
+qcwwan.DeviceDesc80983  = "NEOWAY HS-USB WWAN Adapter 8098"
+qcwwan.DeviceDesc80993  = "NEOWAY HS-USB WWAN Adapter 8099"
+qcwwan.DeviceDesc81003  = "NEOWAY HS-USB WWAN Adapter 8100"
+qcwwan.DeviceDesc81013  = "NEOWAY HS-USB WWAN Adapter 8101"
+qcwwan.DeviceDesc81023  = "NEOWAY HS-USB WWAN Adapter 8102"
+qcwwan.DeviceDesc81033  = "NEOWAY HS-USB WWAN Adapter 8103"
+qcwwan.DeviceDesc81042  = "NEOWAY HS-USB WWAN Adapter 8104"
+qcwwan.DeviceDesc81052  = "NEOWAY HS-USB WWAN Adapter 8105"
+qcwwan.DeviceDesc81062  = "NEOWAY HS-USB WWAN Adapter 8106"
+qcwwan.DeviceDesc81072  = "NEOWAY HS-USB WWAN Adapter 8107"
+qcwwan.DeviceDesc81161  = "NEOWAY HS-USB WWAN Adapter 8116"
+qcwwan.DeviceDesc82361  = "NEOWAY HS-USB WWAN Adapter 8236"
+qcwwan.DeviceDesc82413  = "NEOWAY HS-USB WWAN Adapter 8241"
+qcwwan.DeviceDesc82423  = "NEOWAY HS-USB WWAN Adapter 8242"
+
+qcwwan.DeviceDesc82430  = "NEOWAY HS-USB WWAN Adapter 8243"
